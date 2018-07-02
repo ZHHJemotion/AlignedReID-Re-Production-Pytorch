@@ -39,10 +39,17 @@ The triplet loss baseline on Market1501 with settings:
 - Use only global distance, NOT normalizing feature to unit length, with margin 0.3
 - Adam optimizer, base learning rate 2e-4, decaying exponentially after 150 epochs. Train for 300 epochs in total.
 
+Market1501
 |   | Rank-1 (%) | mAP (%) | Rank-1 (%) after Re-ranking | mAP (%) after Re-ranking |
 | --- | :---: | :---: | :---: | :---: |
 | Triplet Loss | 87.05 | 71.38 | 89.85 | 85.49 |
 | Triplet Loss + Mutual Loss | 88.78 | 75.76 | 91.92 | 88.27 |
+
+CUHK03 (200 ids for gallery)
+|   | Rank-1 (%) | mAP (%) | Rank-1 (%) after Re-ranking | mAP (%) after Re-ranking |
+| --- | :---: | :---: | :---: | :---: |
+| Triplet Loss | 86.38 | 82.98 | 92.41 | 90.70 |
+| Triplet Loss + Mutual Loss | 90.22 | 87.05 | 94.22 | 93.37 |
 
 Other details of setting can be found in the code. To test my trained models or reproduce these results, see the [Examples](#examples) section.
 
