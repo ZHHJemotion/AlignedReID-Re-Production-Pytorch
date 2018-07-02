@@ -142,6 +142,10 @@ python script/dataset/transform_cuhk03.py \
 --save_dir ~/Dataset/cuhk03
 ```
 
+!!! [New] upload the split code for generating the training/testing set according to the paper of AlignedReID, in which 1,267 ids for training set and 200 ids for test set.
+```
+--generate_train_test_partition_file ~/script/dataset/gen_train_test_split.py \
+```
 
 ## DukeMTMC-reID
 
