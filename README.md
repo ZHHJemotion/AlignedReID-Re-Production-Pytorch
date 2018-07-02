@@ -28,6 +28,8 @@ If you adopt AlignedReID in your research, please cite the paper
   - [x] Re-Ranking
 - Speed
   - [x] Speed up forward & backward
+- Dataset
+  - [x] Split training/testing set according to paper
 
 
 # Current Results
