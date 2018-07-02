@@ -97,11 +97,11 @@ if __name__ == '__main__':
     parser.add_argument(
         '--imgs_file',
         type=str,
-        default='/home/pingguo/PycharmProject/database/reid_dataset/cuhk03_github/detected/images')
+        default='/database/reid_dataset/cuhk03_github/detected/images')
     parser.add_argument(
         '--train_test_partition_file',
         type=str,
-        default='/home/pingguo/PycharmProject/database/reid_dataset/cuhk03_github/paper_train_test_split.pkl')
+        default='/database/reid_dataset/cuhk03_github/paper_train_test_split.pkl')
     args = parser.parse_args()
     imgs_file = osp.abspath(osp.expanduser(args.imgs_file))
     train_test_partition_file = osp.abspath(osp.expanduser(args.train_test_partition_file))
