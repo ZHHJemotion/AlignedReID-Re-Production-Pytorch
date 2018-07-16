@@ -1,3 +1,13 @@
+**[New] upload the split code for generating the training/testing set according to the paper of AlignedReID, in which 1,267 ids for training set and 200 ids for test set.
+
+CUHK03 (200 ids for gallery)
+
+|   | Rank-1 (%) | mAP (%) | Rank-1 (%) after Re-ranking | mAP (%) after Re-ranking |
+| --- | :---: | :---: | :---: | :---: |
+| Triplet Loss | 86.38 | 82.98 | 92.41 | 90.70 |
+| Triplet Loss + Mutual Loss | 90.22 | 87.05 | 94.22 | 93.37 |
+
+
 **Related Projects:**
 - [Strong Triplet Loss Baseline](https://github.com/huanghoujing/person-reid-triplet-loss-baseline)
 - [Strong Identification Loss Baseline](https://github.com/huanghoujing/beyond-part-models)
@@ -28,7 +38,7 @@ If you adopt AlignedReID in your research, please cite the paper
   - [x] Re-Ranking
 - Speed
   - [x] Speed up forward & backward
-- Dataset
+- Dataset [New]
   - [x] Split training/testing set according to paper
 
 
@@ -45,13 +55,6 @@ Market1501
 | --- | :---: | :---: | :---: | :---: |
 | Triplet Loss | 87.05 | 71.38 | 89.85 | 85.49 |
 | Triplet Loss + Mutual Loss | 88.78 | 75.76 | 91.92 | 88.27 |
-
-CUHK03 (200 ids for gallery)
-
-|   | Rank-1 (%) | mAP (%) | Rank-1 (%) after Re-ranking | mAP (%) after Re-ranking |
-| --- | :---: | :---: | :---: | :---: |
-| Triplet Loss | 86.38 | 82.98 | 92.41 | 90.70 |
-| Triplet Loss + Mutual Loss | 90.22 | 87.05 | 94.22 | 93.37 |
 
 Other details of setting can be found in the code. To test my trained models or reproduce these results, see the [Examples](#examples) section.
 
