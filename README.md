@@ -1,4 +1,5 @@
-**[New]**
+# [New]
+
 **upload the split code for generating the training/testing set according to the paper of AlignedReID, in which 1,267 ids for training set and 200 ids for test set.
 
 CUHK03 (200 ids for gallery)
