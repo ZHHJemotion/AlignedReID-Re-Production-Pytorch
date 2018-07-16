@@ -1,4 +1,5 @@
-**[New] upload the split code for generating the training/testing set according to the paper of AlignedReID, in which 1,267 ids for training set and 200 ids for test set.
+**[New]**
+**upload the split code for generating the training/testing set according to the paper of AlignedReID, in which 1,267 ids for training set and 200 ids for test set.
 
 CUHK03 (200 ids for gallery)
 
@@ -6,6 +7,8 @@ CUHK03 (200 ids for gallery)
 | --- | :---: | :---: | :---: | :---: |
 | Triplet Loss | 86.38 | 82.98 | 92.41 | 90.70 |
 | Triplet Loss + Mutual Loss | 90.22 | 87.05 | 94.22 | 93.37 |
+
+---------------------------------------------------------------------------------------------------------------------------
 
 
 **Related Projects:**
